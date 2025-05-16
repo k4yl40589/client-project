@@ -1,0 +1,1034 @@
+body{
+    background-color: #fdf8c5;
+    padding: 0;
+    margin: 0;
+}
+header{
+    padding: 0rem 1rem 0rem 1rem;   
+    
+}
+header nav{
+  position: fixed;
+  width: 100%;
+  top: 0rem;
+  font-family: "filson-soft", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 2rem;
+background-color: #293580;
+padding-bottom: 100%;
+}
+.logo{
+    max-width: 40%;
+}
+.hamburger{
+    width: 40px;
+    height: auto;
+    padding: 1rem;
+    position: absolute;
+    right:5%;
+    top: 1rem;
+}
+.hamburger hr{
+    border: 1.5px solid black;
+}
+.inside hr{
+    border-color: white;
+}
+header nav a{
+    display: block;
+    color: white;
+    text-align: end;
+    text-decoration: none;
+    padding: 2rem;
+}
+
+header nav{
+    right: -100%;
+    padding-top: 20%;
+}
+header nav.show{
+    right: 0;
+    z-index: 10;
+}
+header nav{
+    transition-property: right;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+}
+
+
+
+.c-welcome-1{
+    width: 34rem;
+    position: absolute;
+    right: 25%;
+    top: -15%;
+}
+.c-welcome-2{
+    width: 8rem;
+    position: absolute;
+    right: 0;
+    top: 28rem;
+}
+.welcome-in{
+    display: block;
+    text-align: center;
+    color: #ed326d;
+    font-family: "filson-soft", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    margin-top: 15rem;
+
+}
+.our-flavors-button{
+    position: absolute;
+    text-decoration: none;
+    font-family: "filson-soft", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    border-radius: 30rem;
+    padding: .5rem 1rem .5rem 1rem;
+    background-color: #ed326d;
+    right: 1rem;
+    top: 30rem;
+}
+.our-flavors-button:hover{
+    border: 2px solid #ed326d;
+    background-color: #fdf8c5;
+    color: #ed326d;
+    
+}
+.cafe-front{
+    max-width: 90%;
+    height: auto;
+    padding-top: 26rem;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+}
+.story-button{
+    text-decoration: none;
+    font-family: "filson-soft", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    border-radius: 30rem;
+    padding: .5rem 1rem .5rem 1rem;
+    background-color: #ed326d;
+    margin-left: 1rem;
+}
+.story-button:hover{
+    border: 2px solid #ed326d;
+    background-color: #fdf8c5;
+    color: #ed326d;
+}
+.c-email{
+    max-width: 20rem;
+    height: auto;
+    margin-top: 9rem;
+    padding: 1rem;
+    rotate: 55deg;
+}
+.stay{
+    font-family: "filson-soft", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ed326d;
+    font-size: 2rem;
+    position: absolute;
+    top: 78rem;
+    margin-left: 2rem;
+}
+.touch{
+    font-family: "filson-soft", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ed326d;
+    font-size: 4rem;
+    position: absolute;
+    top: 80rem;
+    right: 3rem;
+}
+form input{
+    border-radius: 1rem;
+    background-color: #91aeda;
+    color: #5b83bb;
+    padding: .2rem 4rem .2rem 4rem;
+    font-family: "filson-soft", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border: none;
+    text-align: center;
+    justify-content: space-around
+}
+form{
+    padding-left: 2rem;
+}
+
+footer{
+    font-family: "filson-soft", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    background-color: #293580;
+    padding: 1rem 1rem 0rem 1rem;
+    margin-top: 3rem;
+    border-top-right-radius: 3rem;
+    border-top-left-radius: 3rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 2rem 1fr 2rem;
+}
+footer h2{
+    grid-area: 1/1/2/3;
+    font-size: 1.2rem;
+}
+.footer-1{
+    grid-area: 2/1/3/2;
+    font-size: 0.6rem;
+}
+.footer-2{
+    grid-area: 2/2/3/3;
+    font-size: .6rem;
+}
+.footer-3{
+    grid-area: 3/1/4/3;
+    font-size: .6rem;
+}
+.buttons{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+
+
+.single, .triple, .quad{
+    font-family: "filson-soft", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: block;
+    padding: 4rem 3rem 4rem 3rem;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+.single{
+    background-image: url(images/buttons-v2-11.png);
+    background-position: center;
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.triple{
+    background-image: url(images/buttons-v2-12.png);
+    background-position: center;
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.quad{
+    background-image: url(images/buttons-v2-13.png);
+    background-position: center;
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.buttons h1, h2{
+    font-family: "filson-soft", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: .5rem;
+    padding-left: .3rem;
+}
+.buttons h1{
+    font-size: 3rem;
+}
+.buttons h2{
+    font-size: 1rem;
+}
+
+
+
+
+.menu-1{
+    font-family: "filson-soft", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding: 0rem;
+}
+.menu-1 h1{
+    font-size: 3rem;
+    font-weight: 200;
+}
+.menu1-cookies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+
+}
+
+.menu1-cookies h5{
+max-width: 9rem;
+}
+.menu1-cookies article{
+    display: block;
+    text-align: center;
+}
+
+
+
+
+.menu-1 h1{
+    font-size: 3rem;
+    font-weight: 200;
+    text-align: center;
+}
+.menu1-drinks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.menu1-drinks h5{
+max-width: 9rem;
+}
+.menu1-drinks article{
+    display: block;
+    text-align: center;
+}
+.menu-titles{
+    display: block;
+    text-align: center;
+}
+.store-button{
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+}
+.menu-store-button{
+    text-decoration: none;
+    font-family: "filson-soft", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    border-radius: 30rem;
+    padding: .5rem 1rem .5rem 1rem;
+    background-color: #ed326d;
+}
+.menu-store-button:hover{
+    border: 2px solid #ed326d;
+    background-color: #fdf8c5;
+    color: #ed326d;
+}
+
+.loco-titles-imgs{
+    padding-left: 2rem;
+    
+}
+.loco-titles-imgs h1{
+    font-size: 2rem;
+    font-weight: 200;
+}
+.loco-img{
+    max-width: 100%;
+}
+.loco section{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    font-family: "filson-soft", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.order-here-button{
+    text-decoration: none;
+    font-family: "filson-soft", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    border-radius: 30rem;
+    padding: .5rem 1rem .5rem 1rem;
+    background-color: #ed326d;
+}
+.order-here-button:hover{
+    border: 2px solid #ed326d;
+    background-color: #fdf8c5;
+    color: #ed326d;
+}
+
+
+.order-oat{
+    position: absolute;
+    left: 0;
+    top: 7rem;
+    width: 12rem;
+    z-index: 0;
+}
+.order-matcha{
+    position: absolute;
+    right: 0;
+    top: 30rem;
+    width: 13rem;
+    z-index: 0;
+}
+.order{
+display: block;
+text-align: center;
+margin-top: 17rem;
+
+}
+.footer-order{
+    margin-top: 25rem;
+}
+.order h2{
+    font-size: 3rem;
+}
+.order a{
+    text-decoration: none;
+    font-family: "filson-soft", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    border-radius: 30rem;
+    padding: .5rem 1rem .5rem 1rem;
+    background-color: #ed326d;
+}
+.order a:hover{
+    border: 2px solid #ed326d;
+    background-color: #fdf8c5;
+    color: #ed326d;
+}
+.footer-order h2{
+    font-size: 1.2rem;
+}
+
+
+
+.menu-2{
+    font-family: "filson-soft", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding: 0rem;
+}
+.menu-2 h1{
+    font-size: 3rem;
+    font-weight: 200;
+}
+.menu2-cookies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+
+
+}
+
+
+.menu2-cookies h5{
+max-width: 9rem;
+}
+.menu2-cookies article{
+    display: block;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+.menu-2 h1{
+    font-size: 3rem;
+    font-weight: 200;
+    text-align: center;
+}
+.menu2-drinks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+
+.menu2-drinks h5{
+max-width: 9rem;
+}
+.menu2-drinks article{
+    display: block;
+    text-align: center;
+}
+.menu-titles{
+    display: block;
+    text-align: center;
+}
+.store-button{
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+}
+.menu-store-button{
+    text-decoration: none;
+    font-family: "filson-soft", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    border-radius: 30rem;
+    padding: .5rem 1rem .5rem 1rem;
+    background-color: #ed326d;
+}
+.menu-store-button:hover{
+    border: 2px solid #ed326d;
+    background-color: #fdf8c5;
+    color: #ed326d;
+}
+
+
+.final-order{
+    font-family: "filson-soft", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding: 1rem;
+}
+
+.final-order h1{
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.summary{
+    display: grid;
+    grid-template-columns: 1fr 30%;
+    grid-template-rows: 4rem 8rem 8rem 1rem 2rem 2rem 2rem 1rem 2rem 2rem;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+    font-size: .75rem;
+}
+.order-summery h2{
+    grid-area: 1/1/2/2;
+}
+.c-order{
+    grid-area: 2/1/3/2;
+}
+.c-price{
+    grid-area: 2/2/3/3;
+    text-align: end;
+}
+.d-order{
+    grid-area: 3/1/4/2;
+}
+.d-price{
+    grid-area: 3/2/4/3;
+    text-align: end;
+}
+.subtotal{
+    grid-area: 5/1/6/2;
+}
+.sub-price{
+    grid-area: 5/2/6/3;
+    text-align: end;
+}
+.taxes{
+    grid-area: 6/1/7/2;
+}
+.tax-price{
+    grid-area: 6/2/7/3;
+    text-align: end;
+}
+.total{
+    grid-area: 7/1/8/2;
+}
+.total-price{
+    grid-area: 7/2/8/3;
+    text-align: end;
+    font-weight: 600;
+}
+.AP{
+    grid-area: 9/1/10/2;
+}
+.DC{
+    grid-area: 10/1/11/2;
+}
+.submit-order{
+    text-decoration: none;
+    font-family: "filson-soft", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    border-radius: 30rem;
+    padding: .5rem 1rem .5rem 1rem;
+    background-color: #ed326d;
+    margin: 1rem;
+}
+.submit-order:hover{
+    border: 2px solid #ed326d;
+    background-color: #fdf8c5;
+    color: #ed326d;
+}
+
+.submit-page{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.sys, .enjoy{
+    font-family: "filson-soft", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+
+}
+.sys{
+    font-size: 2rem;
+}
+.submit-c{
+    max-width: 100%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.home-button{
+    text-decoration: none;
+    font-family: "filson-soft", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    border-radius: 30rem;
+    padding: .5rem 1rem .5rem 1rem;
+    background-color: #ed326d;
+}
+.home-button:hover{
+    border: 2px solid #ed326d;
+    background-color: #fdf8c5;
+    color: #ed326d;
+}
+.story{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-family: "filson-soft", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.story-img{
+    max-width: 100%;
+}
+.story h1{
+    font-weight: 200;
+    font-size: 3rem;
+}
+.story p{
+    margin-bottom: 3rem;
+}
+
+
+@media (min-width: 1024px){
+    .logo{
+        max-width: 10rem;
+    }
+    header{
+        padding: 0rem 3rem 0rem 3rem;
+    }
+    header nav{
+        width: 25%;
+        padding-top: 7rem;
+        margin-top: 0%;
+        
+    }
+    .hamburger{
+        padding-right: 0;
+        width: 55px;
+        
+    }
+    .hamburger hr{
+        border: 2px solid black;
+        
+    }
+    .inside hr{
+        border-color: white;
+    }
+
+
+
+    .c-welcome-1{
+        width: 50rem;
+        position: absolute;
+        left: -20%;
+    }
+    .c-welcome-2{
+        width: 15rem;
+        position: absolute;
+        right: 0;
+        top: 20rem;
+    }
+    .welcome-in{
+        display: block;
+        text-align: center;
+        color: #ed326d;
+        font-family: "filson-soft", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 5rem;
+        margin-top: 15rem;
+}
+    .our-flavors-button{
+        position:absolute;
+        font-size: 2rem;
+        right: 43%;
+    }
+    .cafe-front{
+        position: static;
+        max-width: 45%;
+        height: auto;
+        margin-top: 20rem;
+        margin-left: 25rem;
+        border-radius: 2rem;
+        padding: 0;
+}
+.story-button{
+    text-decoration: none;
+    font-family: "filson-soft", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    border-radius: 30rem;
+    padding: .5rem 1rem .5rem 1rem;
+    background-color: #ed326d;
+    font-size: 2rem;
+    position: absolute;
+    right: 43.8%;
+    top: 90rem;
+}
+.story-button:hover{
+    border: 2px solid #ed326d;
+    background-color: #fdf8c5;
+    color: #ed326d;
+}
+.stay{
+    font-family: "filson-soft", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ed326d;
+    font-size: 3rem;
+    position: absolute;
+    top: 95rem;
+    margin-left: 30rem;
+}
+.touch{
+    font-family: "filson-soft", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ed326d;
+    font-size: 6rem;
+    position: absolute;
+    top: 95rem;
+    right: 30rem;
+}
+.c-email{
+    max-width: 30rem;
+    height: auto;
+    margin-top: 15rem;
+    padding: 1rem;
+    margin-left: 30rem;
+    rotate: 55deg;
+}
+form input{
+    border-radius: 4rem;
+    background-color: #91aeda;
+    color: #5b83bb;
+    padding: .5rem 4rem .5rem 4rem;
+    font-family: "filson-soft", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border: none;
+    font-size: 1rem;
+    text-align: center;
+    justify-content: space-around;
+}
+form{
+    margin-left: 32rem;
+}
+footer{
+    font-family: "filson-soft", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    background-color: #293580;
+    padding: 1rem 1rem 0rem 1rem;
+    margin-top: 3rem;
+    border-top-right-radius: 3rem;
+    border-top-left-radius: 3rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 4rem 1fr 2rem;
+}
+footer h2{
+    grid-area: 1/1/2/3;
+    font-size: 2rem;
+    margin-left: 4rem;
+    
+}
+.footer-1{
+    grid-area: 2/1/3/2;
+    font-size: 1rem;
+    margin-left: 6rem;
+}
+.footer-2{
+    grid-area: 2/2/3/3;
+    font-size: 1rem;
+    
+}
+.footer-3{
+    grid-area: 3/1/4/3;
+    font-size: .8rem;
+}
+
+
+
+.menu-1{
+    font-family: "filson-soft", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    padding: 1rem 10rem 1rem 10rem;
+}
+.menu-1 h1{
+    font-size: 3rem;
+    font-weight: 200;
+}
+.menu-1 img{
+    width: 280px;
+}
+.menu1-cookies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+
+}
+
+.menu1-cookies h5{
+max-width: 280px;
+font-size: 1rem;
+}
+.menu1-cookies article{
+    display: block;
+    text-align: center; 
+}
+
+
+
+
+.menu-1 h1{
+    font-size: 3rem;
+    font-weight: 200;
+    text-align: center;
+}
+.menu1-drinks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.menu1-drinks h5{
+max-width: 280px;
+font-size: 1rem;
+}
+.menu1-drinks article{
+    display: block;
+    text-align: center;
+}
+.menu-titles{
+    display: block;
+    text-align: center;
+}
+.store-button{
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+}
+.menu-store-button{
+    text-decoration: none;
+    font-family: "filson-soft", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    border-radius: 30rem;
+    padding: .5rem 1rem .5rem 1rem;
+    background-color: #ed326d;
+}
+.menu-store-button:hover{
+    border: 2px solid #ed326d;
+    background-color: #fdf8c5;
+    color: #ed326d;
+}
+
+
+
+
+.loco{
+    margin: auto;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+.loco-titles-imgs h1{
+    font-size: 2rem;
+    font-weight: 200;
+}
+.loco section{
+    text-align: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+}
+.tornado{
+    display: flex;
+    justify-content: space-evenly;
+}
+.loco-img{
+    max-width: 100%;
+}
+.order-here-button{
+    font-size: 1.5rem;
+}
+.story h1{
+    padding-left: 3rem;
+}
+.grid{
+    display: flex;
+}
+.story-img{
+    max-width: 40%;
+}
+.grid p{
+    font-size: 1.2rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+.menu-2{
+    font-family: "filson-soft", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    padding: 1rem 10rem 1rem 10rem;
+}
+.menu-2 h1{
+    font-size: 3rem;
+    font-weight: 200;
+}
+.menu-2 img{
+    width: 280px;
+}
+.menu2-cookies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+
+.menu2-cookies h5{
+max-width: 280px;
+font-size: 1rem;
+}
+.menu2-cookies article{
+    display: block;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+.menu-2 h1{
+    font-size: 3rem;
+    font-weight: 200;
+    text-align: center;
+}
+.menu2-drinks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+
+.menu2-drinks h5{
+max-width: 280px;
+font-size: 1rem;
+}
+.menu2-drinks article{
+    display: block;
+    text-align: center;
+}
+.menu-titles{
+    display: block;
+    text-align: center;
+}
+.menu-store-button{
+    font-size: 2rem;
+}
+.summary{
+    grid-template-rows: 4rem 8rem 8rem 2rem 4rem 4rem 4rem 2rem 4rem 4rem;
+}
+.final-order p{
+    font-size: 1.2rem;
+}
+.final-order h1{
+    font-size:2rem;
+    padding-left: 1rem;
+}
+.submit-order{
+    font-size: 1.5rem;
+}
+.order-loco-button{
+    font-size: 2rem;
+    margin: 1rem;
+}
+.order-menu-button{
+    font-size: 2rem;
+    margin: 1rem;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 8rem;
+    margin-top: 5rem;
+}
+.single, .triple, .quad{
+    width: 20%;
+}
+.buttons h1, h2{
+    text-align: center;
+}
+.submit-page{
+    padding-left: 6rem;
+    padding-right: 6rem;
+    text-align: center;
+}
+.sys{
+font-size: 3rem;
+}
+.enjoy{
+    font-size: 1.5rem;
+}
+.sys, .enjoy{
+    padding-left: 3rem;
+}
+.home-button{
+    font-size: 2rem;
+}
+.submit-c{
+    max-width:100%;
+    
+}
+}
